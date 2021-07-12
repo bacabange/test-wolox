@@ -1,5 +1,15 @@
 {
-  "sign_in": [],
+  "sign_in": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ],
   "books": [
     {
       "id": 1,
@@ -8,7 +18,21 @@
       "genre": "Short story",
       "publisher": "Butterworth-Heinemann",
       "year": "1968",
-      "image_url": null
+      "image_url": null,
+      "comments": [
+        {
+          "id": 1,
+          "name": "Jhon Do",
+          "image": "img_user1.png",
+          "comment": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti harum aperiam eligendi"
+        },
+        {
+          "id": 2,
+          "name": "Sarah Obama",
+          "image": "img_user2.png",
+          "comment": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti harum aperiam eligendi"
+        }
+      ]
     },
     {
       "id": 2,
@@ -49,11 +73,25 @@
     {
       "id": 6,
       "author": "Paula Hawkins",
-      "title": "The Girl on the Train\n",
+      "title": "The Girl on the Train",
       "genre": "suspense",
       "publisher": "Riverhead Books",
       "year": "2015",
-      "image_url": "http://wolox-training.s3.amazonaws.com/uploads/content.jpeg"
+      "image_url": "http://wolox-training.s3.amazonaws.com/uploads/content.jpeg",
+      "comments": [
+        {
+          "id": 1,
+          "name": "Jhon Do",
+          "image": "img_user1.png",
+          "comment": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti harum aperiam eligendi"
+        },
+        {
+          "id": 2,
+          "name": "Sarah Obama",
+          "image": "img_user2.png",
+          "comment": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti harum aperiam eligendi"
+        }
+      ]
     },
     {
       "id": 7,
@@ -62,7 +100,21 @@
       "genre": "suspense",
       "publisher": "Scribner",
       "year": "2014",
-      "image_url": "http://wolox-training.s3.amazonaws.com/uploads/content.jpeg"
+      "image_url": "http://wolox-training.s3.amazonaws.com/uploads/content.jpeg",
+      "comments": [
+        {
+          "id": 1,
+          "name": "Jhon Do",
+          "image": "img_user1.png",
+          "comment": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti harum aperiam eligendi"
+        },
+        {
+          "id": 2,
+          "name": "Sarah Obama",
+          "image": "img_user2.png",
+          "comment": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti harum aperiam eligendi"
+        }
+      ]
     },
     {
       "id": 8,
